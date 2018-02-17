@@ -85,7 +85,7 @@ class Producto
     	$str .= "<p>" . $this->descripcion . "</p>";
     	$str .= "</div>";
     	$str .= "<h4 class='pull-right' style='position:absolute; bottom:4px; left:4px'>". $this->getHtmlPrecio() . "</h4>";
-      $str .= "<a href='./carro.php?action=add&id=" . $this->id . "&cantidad=1&redirect=".urlencode($_SERVER["REQUEST_URI"])."' class='btn btn-danger' style='position:absolute; bottom:4px; right:4px'>Comprar</a>";
+      $str .= "<a href='./carro.php?action=add&id=" . $this->id . "&cantidad=1".getRedirect()."' class='btn btn-danger' style='position:absolute; bottom:4px; right:4px'>Comprar</a>";
 
       return $str;
 
@@ -112,7 +112,7 @@ class Producto
             $str .= "<p>". $this->descripcion . "</p>";
           $str .= "</div>";
           $str .= "<h4 class='pull-right'>" . $this->getHtmlPrecio() . "</h4>";
-          $str .= "<a href='./carro.php?action=add&id=" . $this->id . "&cantidad=1&redirect=".urlencode($_SERVER["REQUEST_URI"])."' class='btn btn-danger'>Comprar</a>";
+          $str .= "<a href='./carro.php?action=add&id=" . $this->id . "&cantidad=1".getRedirect()."' class='btn btn-danger'>Comprar</a>";
         $str .= "</div>";
       $str .= "</div>";
       return $str;

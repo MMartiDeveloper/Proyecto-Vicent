@@ -61,7 +61,7 @@ heredoc;
           $i++;
           $subtotal = $producto->getPrecioReal() * $cantidad;
           $subtotalTexto = number_format($subtotal , 2, ',', ' ') ;
-          $str .=  "<tr><th scope='row'>$i</th><td><a href='" .  $producto->getUrl() . "'>" . $producto->getNombre() . "</a><a class='open-modal' title='Haga clic para ver el detalle del producto' href='" . $producto->getUrl() . "'><span class='fa fa-external-link'></span></a></td><td>$cantidad</td><td>" .  $producto->getPrecioReal() ." €</td><td>$subtotalTexto €</td><td><a href='./carro.php?action=delete&id=".$producto->getId()."&redirect=".urlencode($_GET["redirect"])."'><span class='fa fa-times'></span></a></td></tr>";
+          $str .=  "<tr><th scope='row'>$i</th><td><a href='" .  $producto->getUrl() . "'>" . $producto->getNombre() . "</a><a class='open-modal' title='Haga clic para ver el detalle del producto' href='" . $producto->getUrl() . "'><span class='fa fa-external-link'></span></a></td><td>$cantidad</td><td>" .  $producto->getPrecioReal() ." €</td><td>$subtotalTexto €</td><td><a href='./carro.php?action=delete&id=".$producto->getId()."".getRedirect()."'><span class='fa fa-times'></span></a></td></tr>";
         }
       }
       $str .= <<<heredoc
