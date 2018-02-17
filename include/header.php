@@ -17,6 +17,7 @@ if(!isset($carrito)){
     <meta name="author" content="">
 
     <title><?php echo $title; ?></title>
+    <link rel="icon" href="/css/logo.png"/>
 
     <!-- Bootstrap Core CSS -->
     <link href="<?php echo CSSPATH; ?>bootstrap.min.css" rel="stylesheet">
@@ -38,7 +39,7 @@ if(!isset($carrito)){
   <div id="mask" style="position: fixed; width: 100%; height: 100%; top: 0px; left: 0px; z-index: 1040;
    background-color: white;  opacity: .9; display:none">
      <div class="alert alert-info" role="alert" style='position: absolute;  top: 30%;  left: 50%;  transform: translate(-30%, -50%);'>
-         <img src='<?php echo CSSPATH;?>/loading_animation.gif'> <br>Cargando ...
+         <img src='<?php echo CSSPATH;?>/loading_animation.gif'> <br>
      </div>
    </div>
     <!-- Navigation -->

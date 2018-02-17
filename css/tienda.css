@@ -64,6 +64,10 @@ a{
   font-size: 16px;
 }
 
+.fa-external-link{
+  color:#0500ff;
+}
+
 .descuento{
   color:#c92222;
   font-weight: bold;
