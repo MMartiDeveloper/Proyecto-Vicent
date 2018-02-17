@@ -26,13 +26,13 @@
     if ("normal" == $state){
       include("./include/header.php");
       ?>
-      <div id='infoProducto' class="row" style='position:relative; border:1px solid #ddd; border-radius:4px; padding:4px;' >
+      <div id='infoProducto' class="row goldenwood" style='position:relative; border:1px solid #ddd; border-radius:4px; padding:4px;' >
           <?php
               echo $producto->getHtml();
            ?>
       </div>
       <div class="row">
-        <h2 class='subtitle'>También te puede interesar...</h2>
+        <h2 class='subtitle darkwood'>También te puede interesar...</h2>
         <?php
           foreach($productos->getRelacionados($producto->getId(),  $producto->getIdCategoria()) as $producto){
              echo $producto->getThumbnailHtml();

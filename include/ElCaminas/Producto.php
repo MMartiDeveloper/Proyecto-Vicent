@@ -79,7 +79,7 @@ class Producto
 
     public function getHtml(){
 
-      $str =  "<h2 class='subtitle' style='margin:0'>" . $this->nombre ."</h2>";
+      $str =  "<h2 class='subtitle darkwood' style='margin:0'>" . $this->nombre ."</h2>";
       $str .= "<img class='center-block img-responsive img-thumbnail' src='./basededatos/img/600_" . $this->foto . "' alt=''>";
     	$str .= "<div class='caption'>";
     	$str .= "<p>" . $this->descripcion . "</p>";
@@ -92,7 +92,7 @@ class Producto
     }
 
     public function getHtmlPopup(){
-      $str =  "<h2 class='subtitle' style='margin:0'>" . $this->nombre ."</h2>";
+      $str =  "<h2 class='subtitle darkwood' style='margin:0'>" . $this->nombre ."</h2>";
       $str .= "<img class='center-block img-responsive img-thumbnail' src='./basededatos/img/600_" . $this->foto . "' alt=''>";
     	$str .= "<div class='caption'>";
     	$str .= "<p>" . $this->descripcion . "</p>";
@@ -105,7 +105,7 @@ class Producto
     public function getThumbnailHtml(){
 
       $str = "<div class='col-sm-4 col-lg-4 col-md-4'>";
-        $str .= "<div class='thumbnail' style='position:relative'>";
+        $str .= "<div class='thumbnail goldenwood' style='position:relative'>";
           $str .= "<a href='" .  $this->url . "'><img src='./basededatos/img/256_" . $this->foto . "' alt=''></a>";
           $str .= "<div class='caption'>";
             $str .= "<h4><a href='" .  $this->url . "'>". $this->nombre . "</a><a class='open-modal' href='" . $this->url . "'><span class='fa fa-external-link'></span></a></h4>";

@@ -5,7 +5,7 @@
 </div>
 <!-- /.container -->
 
-<div class="container" id='footer'>
+<div class="container woodbar" id='footer'>
 <!-- Footer -->
 <footer>
 <div class="row">
