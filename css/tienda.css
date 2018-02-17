@@ -1,9 +1,31 @@
-body {
-  background-color: #FFFFFF;
+body
+{
+    background: url(/css/wood_background.jpg) no-repeat fixed 100% 50%;
 }
 .navbar-inverse, #footer {
     background-color: #233936;
     border-color: #778435;
+}
+
+.fa-shopping-cart {
+  color: white;
+}
+
+#carritoIcon{
+  font-size: 24px;
+}
+
+#tituloPagina{
+  font-size: 56px;
+}
+
+.woodbar{
+  background: url("/css/wood_bar.jpg") top center repeat-y;
+background-size: 100%;
+-moz-background-size: 100%;
+  -o-background-size: 100%;
+ -webkit-background-size: 100%;
+   -khtml-background-size: 100%;
 }
 #footer p{
   color:#fff;

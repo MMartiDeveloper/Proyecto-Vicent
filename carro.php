@@ -3,7 +3,7 @@
   include("./include/funciones.php");
   $connect = connect_db();
 
-  $title = "Plantas el Caminàs -> ";
+  $title = "Maderas.de -> ";
   require './include/ElCaminas/Carrito.php';
   require './include/ElCaminas/Producto.php';
   require './include/ElCaminas/Productos.php';

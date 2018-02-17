@@ -23,6 +23,7 @@ if(!isset($carrito)){
 
     <!-- Custom CSS -->
     <link href="<?php echo CSSPATH; ?>shop-homepage.css" rel="stylesheet">
+    <link href="<?php echo CSSPATH; ?>tienda.css" rel="stylesheet">
 	  <link href="<?php echo FONTAWESOMEPATH; ?>css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -33,7 +34,7 @@ if(!isset($carrito)){
     <![endif]-->
 </head>
 
-<body>
+<body background="/css/wood_background.jpg">
   <div id="mask" style="position: fixed; width: 100%; height: 100%; top: 0px; left: 0px; z-index: 1040;
    background-color: white;  opacity: .9; display:none">
      <div class="alert alert-info" role="alert" style='position: absolute;  top: 30%;  left: 50%;  transform: translate(-30%, -50%);'>
@@ -41,7 +42,7 @@ if(!isset($carrito)){
      </div>
    </div>
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top woodbar" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -51,7 +52,7 @@ if(!isset($carrito)){
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="./index.php">Plantas El Caminás</a>
+                <a id="tituloPagina" class="navbar-brand" href="./index.php">Maderas.de</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -68,7 +69,7 @@ if(!isset($carrito)){
                 </ul>
                 <ul class="nav navbar-nav  navbar-right">
                     <li>
-                        <a href='/carro.php?redirect=<?php echo urlencode($_SERVER["REQUEST_URI"]); ?>'><span title='Carrito' class='fa fa-shopping-cart'></span> <span class="badge"><?php echo $carrito->howMany();?></span></a>
+                        <a id="carritoIcon" href='/carro.php?redirect=<?php echo urlencode($_SERVER["REQUEST_URI"]); ?>'><span title='Carrito' class='fa fa-shopping-cart'></span> <span class="badge"><?php echo $carrito->howMany();?></span></a>
                     </li>
                 </ul>
             </div>

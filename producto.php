@@ -18,7 +18,7 @@
     http_response_code(404);
     exit();
   }
-  $title = "Plantas el Caminàs -> " . $producto->getNombre();
+  $title = "Maderas.de -> " . $producto->getNombre();
   $state = "normal";
     if (isset($_GET["state"])){
       $state = $_GET["state"];

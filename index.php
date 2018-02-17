@@ -1,6 +1,6 @@
 <?php
 session_start();
-$title = "Plantas el Caminàs -> Inicio";
+$title = "Maderas.de -> Inicio";
 
 include("./include/funciones.php");
 $connect = connect_db();

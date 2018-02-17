@@ -10,7 +10,7 @@
 <footer>
 <div class="row">
     <div class="col-lg-12">
-        <p>Copyright &copy; Plantas El Caminàs <?php echo date("Y"); ?></p>
+        <p>Copyright &copy; Maderas.de <?php echo date("Y"); ?></p>
     </div>
 </div>
 </footer>

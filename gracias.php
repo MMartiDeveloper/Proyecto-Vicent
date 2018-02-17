@@ -1,6 +1,6 @@
 <?php
   session_start();
-  $title = "Plantas el Caminàs -> Gracias";
+  $title = "Maderas.de -> Gracias";
   include("./include/funciones.php");
   $connect = connect_db();
   require './include/ElCaminas/Carrito.php';

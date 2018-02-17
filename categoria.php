@@ -23,7 +23,7 @@
     http_response_code(404);
     exit();
   }
-  $title = "Plantas el Caminàs -> " . $categoria["nombre"];
+  $title = "Maderas.de -> " . $categoria["nombre"];
   $state = "normal";
   if (isset($_GET["state"])){
     $state = $_GET["state"];
