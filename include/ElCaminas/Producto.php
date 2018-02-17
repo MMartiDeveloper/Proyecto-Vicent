@@ -70,9 +70,9 @@ class Producto
     public function getHtmlPrecio(){
       $precioTexto = "";
       if ( $this->precio != $this->precioReal){
-        $precioTexto = "<span class='text text-danger'><s>" . number_format($this->precio, 2, ',', ' ') . " €</s></span> <span class='text text-success'>" . number_format($this->precioReal , 2, ',', ' ') . "€</span>";
+        $precioTexto = "<span class='text descuento'><s>" . number_format($this->precio, 2, ',', ' ') . " €</s></span> <span class='text precioFinal'>" . number_format($this->precioReal , 2, ',', ' ') . "€</span>";
       }else{
-        $precioTexto =  "<span class='text text-danger'>" .number_format($this->precio, 2, ',', ' ') . " €</span>";
+        $precioTexto =  "<span class='text precioFinal'>" .number_format($this->precio, 2, ',', ' ') . " €</span>";
       }
       return $precioTexto;
     }

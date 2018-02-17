@@ -29,13 +29,14 @@ background-size: 100%;
 }
 
 .goldenwood{
-  background: url("/css/golden_vertical_wood.jpg") top center repeat-y;
+  background: url("/css/light_vertical_wood.jpg") top center repeat-y;
 background-size: 100%;
 -moz-background-size: 100%;
   -o-background-size: 100%;
  -webkit-background-size: 100%;
    -khtml-background-size: 100%;
 }
+
 .darkwood{
   background: black url("/css/wood_log.png") top center repeat-y;
 background-size: 100%;
@@ -49,14 +50,7 @@ background-size: 100%;
   font-weight: bold;
   color:#fff;
 }
-.categoriasDiv{
-  background: url("light_vertical_wood.jpg") top center repeat-y;
-background-size: 100%;
--moz-background-size: 100%;
-  -o-background-size: 100%;
- -webkit-background-size: 100%;
-   -khtml-background-size: 100%;
-}
+
 .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a{
   color:#FFF;
 }
@@ -65,7 +59,26 @@ background-size: 100%;
   border-color:#233936;
 }
 a{
-  color:#c9302c;
+  color:#0500ff;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.descuento{
+  color:#c92222;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.precioFinal{
+  color:white;
+  font-weight: bold;
+  font-size: 16px;
+}
+p{
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
 }
 
 h2 {
