@@ -15,6 +15,10 @@ body
   font-size: 56px;
 }
 
+#categoria_0{
+  background-color: #966F33;
+}
+
 .woodbar{
   background: url("/css/wood_bar.jpg") top center repeat-y;
 background-size: 100%;

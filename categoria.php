@@ -52,7 +52,7 @@
 
 ?>
 <?php if ("normal" == $state):?>
-  <h2 class='subtitle' style='margin-left:0; margin-right:0;'><?php echo $categoria["nombre"];?></h2>
+  <h2 class='subtitle darkwood' style='margin-left:0; margin-right:0;'><?php echo $categoria["nombre"];?></h2>
   <div id="data-container">
 <?php endif; ?>
   <div class="row">
@@ -74,10 +74,10 @@
   </div>
   <div class="modal fade" id="infoCarroProducto" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content">
+      <div class="modal-content woodbar">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">Producto añadido correctamente a su carrito</h4>
+          <h4 class="modal-title darkwood" id="myModalLabel">Producto añadido correctamente a su carrito</h4>
         </div>
         <div class="modal-body">
           <div id='data-container'>

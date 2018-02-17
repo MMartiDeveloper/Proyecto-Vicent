@@ -86,7 +86,7 @@ $bottomScripts[] = "modalDomProducto.js";
                 </div>
 
                 <div class="row">
-                  <h2 class='subtitle'>Destacados</h2>
+                  <h2 class='subtitle darkwood'>Destacados</h2>
                   <?php
                   foreach($productos->getDestacados() as $producto){
                      echo $producto->getThumbnailHtml();
@@ -94,7 +94,7 @@ $bottomScripts[] = "modalDomProducto.js";
                   ?>
                 </div>
                 <div class="row">
-                  <h2 class='subtitle'>Novedades</h2>
+                  <h2 class='subtitle darkwood'>Novedades</h2>
                   <?php
                   foreach($productos->getNovedades() as $producto){
                      echo $producto->getThumbnailHtml();

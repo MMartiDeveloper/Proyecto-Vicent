@@ -46,18 +46,18 @@ if (($_SERVER["REQUEST_METHOD"] == "POST")){
   else if ($action == "empty")
       $carrito->empty();
 ?>
-  <div class="row carro">
-    <h2 class='subtitle' style='margin:0'>Carrito de la compra</h2>
+  <div class="row carro woodbar">
+    <h2 class='subtitle darkwood' style='margin:0'>Carrito de la compra</h2>
     <?php  echo $carrito->toHtml();?>
   </div>
 
   <!-- Modal -->
   <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
+    <div class="modal-content woodbar">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Detalle del producto</h4>
+        <h4 class="modal-title" id="myModalLabel darkwood"></h4>
       </div>
       <div class="modal-body">
         <iframe src='#' width="100%" height="600px" frameborder=0 style='padding:8px'></iframe>
