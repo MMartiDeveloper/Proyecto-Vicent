@@ -59,7 +59,7 @@ class Producto
       }else{
         $precioReal =  $this->precio;
       }
-      $this->precioReal = $precioReal;
+      $this->precioReal = number_format($precioReal, 2, ',', ' ') ;;
     }
     public function getPrecioReal(){
       return   $this->precioReal;
@@ -70,9 +70,9 @@ class Producto
     public function getHtmlPrecio(){
       $precioTexto = "";
       if ( $this->precio != $this->precioReal){
-        $precioTexto = "<span class='text descuento'><s>" . number_format($this->precio, 2, ',', ' ') . " €</s></span> <span class='text precioFinal'>" . number_format($this->precioReal , 2, ',', ' ') . "€</span>";
+        $precioTexto = "<span class='text descuento'><s>" . number_format($this->precio, 2, ',', ' ') . " €</s></span> <span class='text precioFinal'>" . number_format($this->precioReal , 2, ',', ' ') . "€/m2</span>";
       }else{
-        $precioTexto =  "<span class='text precioFinal'>" .number_format($this->precio, 2, ',', ' ') . " €</span>";
+        $precioTexto =  "<span class='text precioFinal'>" .number_format($this->precio, 2, ',', ' ') . " €/m2</span>";
       }
       return $precioTexto;
     }
