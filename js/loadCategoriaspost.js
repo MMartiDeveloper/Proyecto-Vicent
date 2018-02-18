@@ -25,7 +25,7 @@ function attachCarro(){
         infoCarro.find("#data-container .total").html(jData.total);
         infoCarro.find("#data-container .title").html(thumbnail.find(".caption a").html());
         infoCarro.find("#data-container .desc").html(thumbnail.find(".caption p").html());
-        infoCarro.find("#data-container a").attr("href", jData.HOME + "carro.php?action=view&redirect="
+        infoCarro.find("#data-container a").attr("href", jData.HOME + "/maderas/carro.php?action=view&redirect="
         + encodeURIComponent(document.location.href));
         infoCarro.find("#data-container img").attr("src", thumbnail.find("img").attr("src"));
         infoCarro.find("#data-container #cantidad").val(jData.itemCount);
