@@ -59,7 +59,7 @@ if(!isset($carrito)){
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav  navbar-right">
                     <li>
-                        <a id="carritoIcon" href='/carro.php?redirect=<?php echo urlencode($_SERVER["REQUEST_URI"]); ?>'><span title='Carrito' class='fa fa-shopping-cart'></span> <span class="badge"><?php echo $carrito->howMany();?></span></a>
+                        <a id="carritoIcon" href='/..maderas/carro.php?redirect=<?php echo urlencode($_SERVER["REQUEST_URI"]); ?>'><span title='Carrito' class='fa fa-shopping-cart'></span> <span class="badge"><?php echo $carrito->howMany();?></span></a>
                     </li>
                 </ul>
             </div>

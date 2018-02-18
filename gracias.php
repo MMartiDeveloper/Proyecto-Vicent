@@ -16,7 +16,7 @@
     <div class="jumbotron">
         <h1>Gracias</h1>
         <p> Gracias por realizar su compra con nosotros</p>
-        <p><a class="btn btn-primary btn-lg" href="/" role="button">Continuar</a></p>
+        <p><a class="btn btn-primary btn-lg" href="/../maderas" role="button">Continuar</a></p>
     </div>
   </div>
 <?php
