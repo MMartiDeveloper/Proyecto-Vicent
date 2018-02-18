@@ -1,6 +1,6 @@
 body
 {
-    background: url(/css/wood_background.jpg) no-repeat fixed 100% 50%;
+    background: url(../maderas/css/wood_background.jpg) no-repeat fixed 100% 50%;
 }
 
 .fa-shopping-cart {
@@ -20,7 +20,7 @@ body
 }
 
 .woodbar{
-  background: url("/css/wood_bar.jpg") top center repeat-y;
+  background: url("../maderas/css/wood_bar.jpg") top center repeat-y;
 background-size: 100%;
 -moz-background-size: 100%;
   -o-background-size: 100%;
@@ -29,7 +29,7 @@ background-size: 100%;
 }
 
 .goldenwood{
-  background: url("/css/light_vertical_wood.jpg") top center repeat-y;
+  background: url("../maderas/css/light_vertical_wood.jpg") top center repeat-y;
 background-size: 100%;
 -moz-background-size: 100%;
   -o-background-size: 100%;
@@ -38,7 +38,7 @@ background-size: 100%;
 }
 
 .darkwood{
-  background: black url("/css/wood_log.png") top center repeat-y;
+  background: black url("../maderas/css/wood_log.png") top center repeat-y;
 background-size: 100%;
 -moz-background-size: 100%;
   -o-background-size: 100%;

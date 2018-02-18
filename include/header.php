@@ -17,7 +17,7 @@ if(!isset($carrito)){
     <meta name="author" content="">
 
     <title><?php echo $title; ?></title>
-    <link rel="icon" href="/css/logo.png"/>
+    <link rel="icon" href="../maderas/css/logo.png"/>
 
     <!-- Bootstrap Core CSS -->
     <link href="<?php echo CSSPATH; ?>bootstrap.min.css" rel="stylesheet">
@@ -35,7 +35,7 @@ if(!isset($carrito)){
     <![endif]-->
 </head>
 
-<body background="/css/wood_background.jpg">
+<body background="../maderas/css/wood_background.jpg">
   <div id="mask" style="position: fixed; width: 100%; height: 100%; top: 0px; left: 0px; z-index: 1040;
    background-color: white;  opacity: .9; display:none">
      <div class="alert alert-info" role="alert" style='position: absolute;  top: 30%;  left: 50%;  transform: translate(-30%, -50%);'>
