@@ -64,7 +64,7 @@
   </div>
   <div class="row">
 <?php
-  $urlPattern = "/categoria.php?id=" . $_GET["id"] . "&itemsPerPage=$itemsPerPage&currentPage=(:num)";
+  $urlPattern = "/../maderas/categoria.php?id=" . $_GET["id"] . "&itemsPerPage=$itemsPerPage&currentPage=(:num)";
   $paginator = new Paginator($totalItems, $itemsPerPage, $currentPage, $urlPattern);
   //echo $paginator->toHtml();
   include './include/JasonGrimes/examples/pager.phtml';

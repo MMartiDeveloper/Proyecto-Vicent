@@ -86,10 +86,10 @@ function loadNodeDataFromPopState(href){
 function setNodeData(data, title){
   document.title = title;
   $( infoProducto ).find( ".subtitle" ).text(data.nombre);
-  $( infoProducto ).find( ".img-thumbnail" ).attr("src", data.HOME + "basededatos/img/600_"+data.foto);
+  $( infoProducto ).find( ".img-thumbnail" ).attr("src", "/../maderas/basededatos/img/600_"+data.foto);
   $( infoProducto ).find( ".caption p" ).text(data.descripcion);
   $( infoProducto ).find( "h4" ).html(data.precio);
-  var hrefComprar = data.HOME +  "carro.php?action=add&id=" + data.id + "&cantidad=1&redirect=" + encodeURI(document.location.href);
+  var hrefComprar = "/../maderas/carro.php?action=add&id=" + data.id + "&cantidad=1&redirect=" + encodeURI(document.location.href);
   $( infoProducto ).find( "a" ).attr("href", hrefComprar);
 }
 attachNavProductos();
